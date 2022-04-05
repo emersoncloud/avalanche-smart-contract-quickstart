@@ -9,6 +9,7 @@ interface Param {
 const main = async(): Promise<any> => {
   const from: string = "0x8db97C7cEcE249c2b98bDC0226Cc4C2A57BF52FC"
   const to: string = "0xDd1749831fbF70d88AB7bB07ef7CD9c53D054a57"
+  // const to: string = "0x8a89e972274cC2171e2A0Cb8955dE72Ea4eb5CdB"
   const amount: string = "0.01"
   const params: Param[] = [{
     from: from,

@@ -14,7 +14,7 @@ contract ExampleERC20 is ERC20, Ownable {
     _mint(msg.sender, TOTAL_SUPPLY);
   }
 
-  function mint(address to, uint256 amount) public onlyOwner {
+  function mint(address to, uint256 amount) public {
     _mint(to, amount);
   }
 

@@ -61,7 +61,8 @@ export default {
       forking: forkingData
     },
     local: {
-      url: 'http://localhost:9650/ext/bc/C/rpc',
+      // url: 'http://localhost:9650/ext/bc/C/rpc',
+      url: 'http://127.0.0.1:9650/ext/bc/C/rpc',
       gasPrice: 225000000000,
       chainId: 43112,
       accounts: [

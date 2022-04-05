@@ -7,11 +7,12 @@ const utils_1 = require('avalanche/dist/utils');
 const sleep = (ms) => {
   return new Promise((resolve) => setTimeout(resolve, ms));
 };
+
 const ip = 'localhost';
 const port = 9650;
 const protocol = 'http';
 const networkID = 12345;
-const avalanche = new avalanche_1.Avalanche(ip, port, protocol, networkID);
+const avalanche = new avalanche_1.Avalanche('127.0.0.1', port, protocol, networkID);
 const mstimeout = 3000;
 const xchain = avalanche.XChain();
 const cchain = avalanche.CChain();
